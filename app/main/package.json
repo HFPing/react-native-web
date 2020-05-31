@@ -1,0 +1,21 @@
+{
+  "name": "@rnw/src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-native": "^0.62.12",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "^0.62.2"
+  }
+}
